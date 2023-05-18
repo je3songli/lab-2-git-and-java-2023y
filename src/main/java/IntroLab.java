@@ -49,13 +49,17 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
-    public static int nameLength(String name) {
-        return (name.length());
+    public static String nameLength(int how_many_Ls) {
+        String i = "L";
+        for (int j = 0; j < how_many_Ls; j++) {
+            i += "L";
+        }
+        return i;
     }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-        System.out.println(nameLength("saivish1"));
+        System.out.println(nameLength(200));
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
