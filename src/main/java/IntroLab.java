@@ -49,6 +49,14 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    // je3songli
+    public static String lotsOfCats(int num) {
+        String catMessage = "";
+        for (int i = 0; i < num; i++) {
+            catMessage = catMessage + "cat";
+        }
+        return catMessage;
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -60,6 +68,8 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
+        // je3songli
+        System.out.println(lotsOfCats(5));
 
     }
 

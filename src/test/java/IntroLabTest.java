@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    // je3songli
+    @Test(timeout = 10)
+    public void testLotsOfCats() {
+        String expected = "catcatcatcatcat";
+        String actual = IntroLab.lotsOfCats(5);
+        assertEquals(expected, actual);
+    }
 }
